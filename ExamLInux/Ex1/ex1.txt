@@ -1,0 +1,38 @@
+git clone https://github.com/princo1415/Linux-Exam.git
+   74  cd Linux-Exam/
+   75  mkdir Ex1 Ex2 Ex3 Ex4
+   76  ls
+   77  cd Ex1
+   78  mkdir -p "Linux Exam"/Files
+   79  cd Linux\ Exam/Files/
+   80  mk doc{1..5}.txt
+   81  touch  doc{1..5}.txt
+   82  ls
+   83  touch report{1..5}.txt
+   84  touch results{1..5}.txt
+   85  rm *
+   86  ls
+   87  touch  doc{1..5}.txt
+   88  touch report{1..5}.doc
+   89  touch results{1..5}.doc
+   90  touch statistics{1..2}.xls
+   91  ls
+   92  cd ..
+   93  mkdir Strypes
+   94  cd Strypes/
+   95  mkdir Day01 Day02
+   96  ls
+   97  cd ..
+   98  cd Files/
+   99  cp *.txt ,,/Strypes/Day01
+  100  pwd
+  101  cp *.txt ../Strypes/Day01
+  102  mv *.doc ../Strypes/Day02
+  103  mv statistics1.xls .statistics1.xls
+  104  ls
+  105  cd ../Strypes/
+  106  rm -r Day02
+  107  ls
+  108  cd ..
+  109  history
+

@@ -1,0 +1,13 @@
+     adduser examuser
+     addgroup examgroup
+     addgroup strypes
+     sudo usermod -a G examgroup examuser,strypes
+     cp /etc/passwd "$HOME"
+     ls
+    ls -l
+    chown examuser:strypes passwd
+    chmod 752 passwd
+    ls -l
+     chmod u+x  passwd
+    ls -l
+    history

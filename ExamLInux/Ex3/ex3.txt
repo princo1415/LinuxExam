@@ -1,0 +1,11 @@
+96  cd ..
+   97  cd Ex3
+   98  touch Fruits.info
+   99  gedit Fruits.info 
+  100  cat Fruits.info 
+cut Fruits.info -d "#" -f 1 | sort
+cut Fruits.info -d "#" -f 2 | sort -n
+ sort -n -r -t "#"  -k3 Fruits.info > fruit.txt  | head fruit.txt -n 1
+sort Fruits.info -t "#" -n -k 3 | head Fruits.info  -n 3
+
+
